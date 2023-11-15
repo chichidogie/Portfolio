@@ -1,83 +1,105 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
- 
-.hero{
-  position: relative;
-  width: 100%;
-  height: 90px;
-  background: #000000;
-}
- 
-nav{
-  display: flex;
-  width: 84%;
-  margin: auto;
-  padding: 20px 0 ;
-  align-items: center;
-  justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+   
+  body{
+    overflow-x: hidden;
+  }
+  .hero{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #000000;
+  }
+   
+  nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0 ;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+   
+  nav ul li a:hover{
+    color:gray;
+  }
+  .h1{
+    position: relative;
+    top: 60px;
+    left: 320px;
+  }
+   
+  .image{
+   position: absolute;
+    top: 300px;
+    left: 480px;
+     }
 
+  .text{
+    position: relative;
+    padding: 20px;
+    top: 10px;
+    z-index: 3;
+  }
+  #qwerty{
+    height: 100%;
+
+  }
+  
+  #text1{
+    top: 200px;
+    left: 190px;
+  
+  }
+  
+  #text2{
+    left: 800px;
+    top: -250px;
+  
+  }
+
+.h2{
+    position: relative;
+    top: 50px;
+    left: 420px;
+}
+.portfolio{
+    background-color:#CBCBCB;
+    height: 100vh;
+    
+}
+h3{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.images{
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
 }
 
-nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 10px 40px;
-}
 
-nav ul li a{
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
+#img1{
+    top: 100px;
 }
- 
-nav ul li a:hover{
-  color:gray;
-}
-.h1{
-  position: relative;
-  top: 60px;
-  left: 490px;
-}
- 
-.text{
-  position: relative;
-  padding: 20px;
-  top: 10px;
-  z-index: 3;
-}
-
-#text1{
-  top: 200px;
-  left: 190px;
-
-}
-
-#text2{
-  left: 1000px;
-  top: -230px;
-
-}
- .image{
-position:relative;
-height: 100px;
-top: 100px;
-left: 500px;
- }
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+   
+   
+   
+   
+   
