@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
  
 
@@ -19,6 +20,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: black;
+  font-size: 20px;
   position: fixed;
   text-decoration: none;
   z-index: 2
@@ -33,14 +35,14 @@ ul {
 li {
   display: flex;
   margin-right: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: none;
 }
 
 a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .h1{
@@ -59,11 +61,17 @@ a{
   border: solid 1px black;
   
 }
+h3{
+  text-align: center;
+}
 
 #certificate {
   border: solid 1px black;
   height: 100%;
   padding: 10rem 1rem;
+}
+#certificate h1{
+  text-align: center;
 }
 
 /* Desk */
