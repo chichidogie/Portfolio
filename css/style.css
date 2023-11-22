@@ -133,6 +133,7 @@ h3{
   .bob {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .ere {
     height: 200px; 
@@ -182,7 +183,9 @@ h3{
   row-gap: 2rem;
   row-gap: 2rem;
 }
-
+ .footer h5{
+  text-align:inherit;
+ }
 
 
 
