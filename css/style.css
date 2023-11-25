@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  align-items: center;
 }
  
 
@@ -28,6 +27,8 @@ body{
   z-index: 2
 }
 
+
+
 li {
   display: flex;
   margin-right: 20px;
@@ -38,7 +39,6 @@ li {
   text-align: end;
   margin-left: 4%;
 }
-
  nav img{
   margin-left:0%;
  }
@@ -48,6 +48,10 @@ a{
   color: rgb(255, 255, 255);
 }
 
+.nav-link:hover {
+  text-decoration: 2px underline;
+  text-underline-offset: 5px;
+}
 .h1{
   text-align: center;
 }
@@ -138,7 +142,9 @@ h3{
     border-radius: 15px;
     margin-bottom: 20px;
   }
-
+ul{
+  align-items: center;
+}
   .jungkook h2{
     text-align: center;
   }
@@ -195,7 +201,9 @@ p{
     flex-direction: column;
     justify-content: center;
   }
-
+  ul{
+    align-items: center;
+  }
   .port-cont {
     display: flex;
     flex-direction: column;
@@ -207,7 +215,6 @@ p{
     flex-direction: column;
     align-items: center;
   }
-  
 }
 
 
