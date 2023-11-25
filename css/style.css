@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
 }
  
 
@@ -27,8 +28,6 @@ body{
   z-index: 2
 }
 
-
-
 li {
   display: flex;
   margin-right: 20px;
@@ -39,6 +38,7 @@ li {
   text-align: end;
   margin-left: 4%;
 }
+
  nav img{
   margin-left:0%;
  }
@@ -120,6 +120,7 @@ h3{
 
   .nice1 {
     height: 600px;
+    
   }
 }
 
@@ -204,7 +205,9 @@ p{
   .bob {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+  
 }
 
 
